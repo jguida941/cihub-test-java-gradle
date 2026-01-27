@@ -3,8 +3,9 @@ repo:
   owner: jguida941
   name: cihub-test-java-gradle
   language: java
-  default_branch: main
+  default_branch: audit/cihub-audit-2026-01-27
   dispatch_workflow: hub-ci.yml
+  hub_workflow_ref: audit/owasp-no-key
 java:
   version: '21'
   build_tool: gradle
